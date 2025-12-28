@@ -1,0 +1,49 @@
+/* استایل پایه سایت خلبانی */
+
+/* تنظیم فونت و بدنه */
+body {
+    font-family: 'Tahoma', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* هدر و منو */
+header {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+/* منو */
+.nav-link {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* بخش اصلی */
+main h2 {
+    margin-bottom: 20px;
+    color: #0d6efd; /* آبی Bootstrap */
+}
+
+main h3 {
+    margin-top: 15px;
+    color: #0b5ed7;
+}
+
+/* فرم تماس */
+form input, form textarea {
+    border-radius: 5px;
+}
+
+form button {
+    border-radius: 5px;
+}
+
+/* فوتر */
+footer {
+    margin-top: 50px;
+}
